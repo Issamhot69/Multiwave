@@ -4,7 +4,10 @@ const API_URL = 'https://9ced-105-155-43-142.ngrok-free.app/api';
 
 const api = axios.create({
   baseURL: API_URL,
-  headers: { 'Content-Type': 'application/json' }
+  headers: { 
+    'Content-Type': 'application/json',
+    'ngrok-skip-browser-warning': 'true'
+  }
 });
 
 // Ajouter le token JWT automatiquement
