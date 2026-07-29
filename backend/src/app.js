@@ -156,4 +156,4 @@ app.use((req, res) =>
 // ===============================
 app.use(errorHandler);
 
-module.exports = app;
+module.exports = app;// CORS fix Wed Jul 29 13:00:07 +01 2026
