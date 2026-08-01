@@ -5,7 +5,9 @@ const UsersController = {
   async register(req, res) {
     try {
       const user = await UsersService.register(req.body);
-      res.status(201).json({ success: true, userId: user.id, message: 'Utilisateur créé' });
+      const jwt = require('jsonwebtoken');
+      const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET || 'multiwave_secret', { expiresIn: '7d' });
+      res.status(201).json({ success: true, userId: user.id, token, message: 'Utilisateur créé' });
     } catch (err) {
       res.status(400).json({ success: false, message: err.message });
     }
