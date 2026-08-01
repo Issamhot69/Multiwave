@@ -91,7 +91,7 @@ export default function Register({ onSwitchToLogin }) {
             <FormField
               label="Nom complet *" name="full_name" type="text"
               value={values.full_name} error={errors.full_name} touched={touched.full_name}
-              onChange={handleChange} onBlur={handleBlur} placeholder="Votre nom complet" required
+              onChange={handleChange} onBlur={handleBlur} placeholder="Votre nom complet" autoComplete="off" required
             />
             <FormField
               label="Nom d'utilisateur *" name="username" type="text"
