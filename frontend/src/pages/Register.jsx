@@ -77,21 +77,7 @@ export default function Register({ onSwitchToLogin }) {
           <p style={styles.subtitle}>connect · explore</p>
         </div>
 
-        {/* Steps */}
-        <div style={{ display:'flex', justifyContent:'center', gap:8, marginBottom:24 }}>
-          {[1,2].map(s => (
-            <div key={s} style={{ display:'flex', alignItems:'center', gap:8 }}>
-              <div style={{
-                width:28, height:28, borderRadius:'50%',
-                background: step >= s ? 'linear-gradient(135deg,#C9A84C,#F5D87A)' : '#1e1e2e',
-                color: step >= s ? '#1a1200' : '#475569',
-                display:'flex', alignItems:'center', justifyContent:'center',
-                fontSize:12, fontWeight:700,
-              }}>{s}</div>
-              {s < 2 && <div style={{ width:40, height:2, background: step > s ? '#C9A84C' : '#1e1e2e' }}/>}
-            </div>
-          ))}
-        </div>
+
 
         {error && <div style={styles.error}>⚠️ {error}</div>}
 
