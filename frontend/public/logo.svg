@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 400" width="100%" role="img" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d18"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B8860B"/>
+      <stop offset="40%" style="stop-color:#F5D87A"/>
+      <stop offset="70%" style="stop-color:#C9A84C"/>
+      <stop offset="100%" style="stop-color:#B8860B"/>
+    </linearGradient>
+    <linearGradient id="iconGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5D87A"/>
+      <stop offset="100%" style="stop-color:#C9A84C"/>
+    </linearGradient>
+  </defs>
+  <rect width="680" height="400" fill="url(#bgGrad)" rx="20"/>
+  <g transform="translate(270, 110)">
+    <circle cx="70" cy="70" r="66" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.3"/>
+    <circle cx="70" cy="70" r="58" fill="rgba(201,168,76,0.05)" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+    <path d="M18 65 C30 50, 45 50, 57 65 C69 80, 84 80, 96 65 C108 50, 118 52, 122 60" fill="none" stroke="url(#iconGold)" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M18 75 C30 60, 45 60, 57 75 C69 90, 84 90, 96 75 C108 60, 118 62, 122 70" fill="none" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M22 85 C34 70, 49 70, 61 85 C73 100, 88 98, 100 85 C112 72, 118 74, 120 80" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  </g>
+  <text x="340" y="248" text-anchor="middle" font-family="Palatino, Georgia, serif" font-size="42" font-weight="700" letter-spacing="10" fill="url(#goldText)">MULTIWAVE</text>
+  <line x1="170" y1="264" x2="280" y2="264" stroke="#C9A84C" stroke-width="0.7" opacity="0.5"/>
+  <rect x="336" y="259" width="8" height="8" fill="#C9A84C" transform="rotate(45, 340, 263)" opacity="0.8"/>
+  <line x1="400" y1="264" x2="510" y2="264" stroke="#C9A84C" stroke-width="0.7" opacity="0.5"/>
+  <text x="340" y="290" text-anchor="middle" font-family="Palatino, Georgia, serif" font-size="13" letter-spacing="7" fill="#C9A84C" opacity="0.75">connect · explore · grow</text>
+</svg>
