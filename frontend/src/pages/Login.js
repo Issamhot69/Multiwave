@@ -38,7 +38,7 @@ export default function Login({ onSwitchToRegister, onSwitchToForgot }) {
 
         {/* Logo */}
         <div style={{ textAlign:'center', marginBottom:24 }}>
-          <h1 style={styles.title}>🌊 MULTIWAVE</h1>
+          <h1 style={styles.title}><img src="/logo.svg" alt="Multiwave" style={{width:200, marginBottom:8}}/></h1>
           <p style={styles.subtitle}>connect · explore</p>
         </div>
 
